@@ -31,6 +31,17 @@ body {
   flex-direction: column;
   align-items: center;
   color: rgb(190, 190, 190);
+  overflow-y: scroll;
+  padding: 1rem;
+}
+
+#input-panel::-webkit-scrollbar {
+  display: none;
+}
+
+#input-panel {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
 }
 
 #app-name {
@@ -38,7 +49,6 @@ body {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  margin: 1rem;
 }
 
 #map-panel {
@@ -60,17 +70,21 @@ body {
 }
 
 #input {
-  width: 80%;
   display: grid;
   grid-template-columns: 50fr 50fr;
   grid-template-rows: 3fr 3fr;
   margin-top: 3rem;
+  font-size: 1rem;
+  column-gap: 1rem;
+}
+
+.box {
+  width: 80%;
   padding: 1rem;
   background-color: rgb(105, 105, 105);
   border-radius: 0.5rem;
   align-items: center;
-  font-size: 1rem;
-  column-gap: 1rem;
+  margin-top: 1rem;
 }
 
 .inp {
