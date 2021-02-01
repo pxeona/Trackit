@@ -147,4 +147,8 @@ body {
   #map {
     border-radius: 0rem 0rem 0.5rem 0.5rem;
   }
+
+  .box {
+    width: 75%;
+  }
 }
