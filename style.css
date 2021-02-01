@@ -24,7 +24,7 @@ body {
 }
 
 #input-panel {
-  width: 30%;
+  width: 32.5%;
   background-color: rgb(64, 64, 64);
   transition: all 0.5s;
   display: flex;
@@ -50,7 +50,7 @@ body {
 }
 
 #map-panel {
-  width: 70%;
+  width: 67.5%;
   transition: all 0.5s;
 }
 
@@ -79,7 +79,7 @@ body {
 }
 
 .box {
-  width: 90%;
+  width: 95%;
   padding: 1rem;
   background-color: rgb(105, 105, 105);
   border-radius: 0.5rem;
@@ -115,7 +115,17 @@ body {
   border-width: thick;
 }
 
-textarea {
+.stats-part {
+  display: inline-block;
+}
+
+#stats-list {
+  display: flex;
+  flex-direction: row;
+}
+
+#stats-list > * {
+  margin: 0.4rem;
 }
 
 @media screen and (max-width: 800px) {
